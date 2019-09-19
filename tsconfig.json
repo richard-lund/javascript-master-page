@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "noImplicitAny" : true,
+        "outDir": "build",
+        //"outFile": "dist/masterpage.js",
+        "lib": [ "es5", "dom", "es2015.promise", "es2015.iterable" ],
+        "removeComments": true,
+        "target": "es3",
+        "allowJs": true,
+        "sourceMap": true
+    },
+    "include": [
+        "modules/es6-promise-auto.min.js",
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
